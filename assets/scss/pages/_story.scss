@@ -1,0 +1,250 @@
+.header {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week1/hero.png?raw=true);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 151px 0px;
+  text-align: center;
+}
+
+.header h1 {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 16px;
+  font-weight: Bold;
+}
+
+.header p {
+  color: white;
+  font-size: 28px;
+  font-weight: Bold;
+}
+
+.slogan {
+  max-width: 896px;
+  background: #f5fee7;
+  margin: 0 auto 48px;
+  text-align: center;
+  padding: 32px;
+}
+
+.slogan h2 {
+  color: #57a203;
+  font-size: 20px;
+  font-weight: Bold;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.slogan p {
+  color: #212529;
+  margin-bottom: 4px;
+}
+
+.introduction {
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.introduction img {
+  max-width: 100%;
+}
+
+.brand {
+  max-width: 856px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.brand h2 {
+  font-size: 24px;
+  font-weight: Bold;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.brand h3 {
+  font-size: 20px;
+  font-weight: Bold;
+  line-height: 1.2;
+  color: #57a203;
+  margin-bottom: 16px;
+}
+
+.brand p {
+  margin-bottom: 16px;
+}
+
+.history {
+  max-width: 856px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.history h2 {
+  font-size: 24px;
+  font-weight: Bold;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.history li {
+  margin-bottom: 12px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.history span {
+  padding-left: 8px;
+  margin-left: 8px;
+  border-left: 1px solid #212529;
+}
+
+.idea {
+  max-width: 856px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.idea h2 {
+  font-size: 24px;
+  font-weight: Bold;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.idea p {
+  padding: 0 12px;
+  margin-bottom: 12px;
+  border-left: 3px solid #dee2e6;
+}
+
+.story {
+  max-width: 856px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  padding-bottom: 48px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.story h2 {
+  font-size: 24px;
+  font-weight: Bold;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.story p {
+  color: #57a203;
+  padding: 4px 0px;
+}
+
+.story a {
+  color: #57a203;
+  padding: 4px 8px;
+}
+
+
+@media (max-width: 767px) {
+  .md-my-13 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+
+  .md-d-none {
+    display: none;
+  }
+
+  .header {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-week3-4/hero-sm.png?raw=true);
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .header p {
+    font-size: 20px;
+  }
+
+  .px-md-24 {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .px-md-12 {
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .mx-md-12 {
+    margin-right: 12px;
+    margin-left: 12px;
+  }
+
+  .mb-md-4 {
+    margin-bottom: 4px;
+  }
+
+  .mb-md-24 {
+    margin-bottom: 24px;
+  }
+
+  .mb-md-32 {
+    margin-bottom: 32px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .slogan,
+  .introduction,
+  .brand,
+  .history,
+  .idea,
+  .story {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .slogan {
+    padding: 24px;
+    text-align: start;
+  }
+
+  .brand h3 {
+    font-size: 16px;
+  }
+
+  .slogan p,
+  .introduction p,
+  .brand p,
+  .history p,
+  .idea p,
+  .story p {
+    font-size: 16px;
+  }
+
+  .register p {
+    font-size: 20px;
+  }
+
+  .mr-md-12 {
+    margin-right: 12px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+  }
+
+  .md-d-block {
+    display: block;
+  }
+}

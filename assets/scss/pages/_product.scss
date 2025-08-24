@@ -1,0 +1,155 @@
+/* main CSS */
+.product-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -4px;
+  margin-right: -4px;
+}
+
+.product-col {
+  width: calc(100% / 12 * 6);
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "/";
+  padding: 0 12px;
+  color: #dee2e6;
+  font-weight: 700;
+}
+
+.breadcrumb-item {
+  display: flex;
+  font-weight: 500;
+}
+
+.breadcrumb-link {
+  color: #6c757d;
+}
+
+.price {
+  font-weight: 700;
+  color: #57a203;
+}
+
+.del-price {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: #adb5bd;
+  padding-left: 8px;
+}
+
+.product-color {
+  width: 64px;
+  text-align: center;
+  color: #6c757d;
+}
+
+.product-size {
+  border: 1px solid #dee2e6;
+  width: 160px;
+}
+
+.active,
+.product-size:hover {
+  border: 1px solid #212529;
+}
+
+.stock {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: #d74f4f;
+}
+
+.btn-dark {
+  background-color: #212529;
+  color: #ffffff;
+}
+
+.btn-light {
+  background-color: #ffffff;
+  border: 1px solid #212529;
+}
+
+.product-action {
+  display: flex;
+  gap: 8px;
+}
+
+.product-action .btn {
+  width: 50%;
+}
+
+.product-action .bi {
+  margin-right: 8px;
+}
+
+.product-info {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.product-info p {
+  color: #6c757d;
+}
+
+@media (max-width: 767px) {
+  .h2 {
+    font-size: 24px;
+  }
+
+  .h4 {
+    font-size: 20px;
+  }
+
+  .h5 {
+    font-size: 16px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+  }
+
+  .md-product-row {
+    display: block;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .product-col {
+    width: calc(100% / 12 * 12);
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .md-product-action .btn {
+    width: 80%;
+  }
+
+  .md-btn {
+    border: none;
+    padding: 12px;
+  }
+
+  .md-col {
+    min-width: 316px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .overflow-x-md-auto {
+        overflow-x: auto;
+    }
+
+
+  img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+  }
+}
